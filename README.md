@@ -70,8 +70,8 @@ Bootstrap Flux by specifying your GitHub repository fork URL:
 
 ```bash
 flux bootstrap git \
-  --author-email=<YOUR-EMAIL> \
-  --url=ssh://git@github.com/<YOUR-USERNAME>/gitops-istio \
+  --author-email=blahblah@gmail.com \
+  --url=ssh://git@github.com/jayjoshi12/gitops-istio \
   --branch=main \
   --path=clusters/my-cluster
 ```
